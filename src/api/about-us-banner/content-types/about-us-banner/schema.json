@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_banners",
+  "info": {
+    "singularName": "about-us-banner",
+    "pluralName": "about-us-banners",
+    "displayName": "About Us Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "blocks"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
